@@ -7,8 +7,8 @@ PASSWORD='123'
 GITNAME="Wes"
 GITEMAIL="wesleysilva.ti@gmail.com"
 
-# echo "repository"
-# sudo add-apt-repository ppa:ondrej/php -y
+echo "repository"
+sudo add-apt-repository ppa:ondrej/php -y
 
 echo "--- update / upgrade ---"
 sudo apt-get update
@@ -26,35 +26,35 @@ echo "--- instalar apache2---"
 sudo apt-get -y install apache2
 
 echo "--- instalar php8 e extensoes"
-sudo apt-get -y install php8.1 
-sudo apt-get -y install libapache2-mod-php8.1 
-sudo apt-get -y install php8.1-pear 
-sudo apt-get -y install php8.1-dev 
-sudo apt-get -y install php8.1-zip 
-sudo apt-get -y install php8.1-curl 
-sudo apt-get -y install php8.1-xmlrpc 
-sudo apt-get -y install php8.1-gd 
-sudo apt-get -y install php8.1-mbstring 
-sudo apt-get -y install php8.1-xml mcrypt 
-sudo apt-get -y install php8.1-common 
-sudo apt-get -y install php8.1-cli 
-sudo apt-get -y install php8.1-intl 
-sudo apt-get -y install php8.1-bcmath 
-sudo apt-get -y install php8.1-imap 
-sudo apt-get -y install php8.1-tokenizer 
-sudo apt-get -y install php8.1-json 
-sudo apt-get -y install php8.1-pgsql 
-sudo apt-get -y install php8.1-soap 
-sudo apt-get -y install php8.1-xs 
-sudo apt-get -y install php8.1-odbc 
-sudo apt-get -y install php8.1-apcu 
-sudo apt-get -y install php8.1-imagick 
-sudo apt-get -y install php8.1-fpm
-sudo apt-get -y install php8.1-ldap
-sudo apt-get -y install php8.1-mysql 
-sudo apt-get -y install php8.1-sqlite
-sudo apt-get -y install php8.1-sqlite3
-sudo apt-get -y install php8.1-redis
+sudo apt-get -y install php 
+sudo apt-get -y install libapache2-mod-php 
+sudo apt-get -y install php-pear 
+sudo apt-get -y install php-dev 
+sudo apt-get -y install php-zip 
+sudo apt-get -y install php-curl 
+sudo apt-get -y install php-xmlrpc 
+sudo apt-get -y install php-gd 
+sudo apt-get -y install php-mbstring 
+sudo apt-get -y install php-xml mcrypt 
+sudo apt-get -y install php-common 
+sudo apt-get -y install php-cli 
+sudo apt-get -y install php-intl 
+sudo apt-get -y install php-bcmath 
+sudo apt-get -y install php-imap 
+sudo apt-get -y install php-tokenizer 
+sudo apt-get -y install php-json 
+sudo apt-get -y install php-pgsql 
+sudo apt-get -y install php-soap 
+sudo apt-get -y install php-xs 
+sudo apt-get -y install php-odbc 
+sudo apt-get -y install php-apcu 
+sudo apt-get -y install php-imagick 
+sudo apt-get -y install php-fpm
+sudo apt-get -y install php-ldap
+sudo apt-get -y install php-mysql 
+sudo apt-get -y install php-sqlite
+sudo apt-get -y install php-sqlite3
+sudo apt-get -y install php-redis
 
 
 echo "--- instalar mysql e fornercer senha para o instalador -- "
